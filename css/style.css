@@ -39,3 +39,9 @@ header .row{
     border: 1px solid orange;
 }
 
+@media screen and (min-width: 768px){
+    .container-fixed-md{
+        max-width: 720px;
+    }
+}
+
