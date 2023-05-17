@@ -1,0 +1,37 @@
+/* Root */
+:root{
+    --h_header: 80px;
+}
+
+/* Generics */
+header{
+    height: 80px;
+}
+
+section{
+    padding: 2rem 0;
+    border: 1px solid red;
+}
+
+/* Utils */
+.container{
+    border: 1px solid black;
+}
+
+header .row{
+    height: var(--h_header);
+}
+
+.col{
+    padding: 0;
+    border: 1px dashed purple;
+}
+
+.my_card{
+    padding: 1rem;
+}
+
+.my_content{
+    border: 1px solid orange;
+}
+
