@@ -13,6 +13,10 @@ section{
     border: 1px solid red;
 }
 
+h2{
+    text-align: center;
+}
+
 /* Utils */
 .container{
     border: 1px solid black;
@@ -23,12 +27,12 @@ header .row{
 }
 
 .col{
-    padding: 0;
-    border: 1px dashed purple;
+    border: 1px solid green;
 }
 
 .my_card{
     padding: 1rem;
+    border: 1px solid red;
 }
 
 .my_content{
