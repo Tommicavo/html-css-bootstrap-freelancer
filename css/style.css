@@ -129,6 +129,38 @@ header .navbar-toggler:focus{
     color: #2C3E50;
 }
 
+/* Main Bottom */
+.main_bottom .bottom_title{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.bottom_icon{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom_icon > *{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.bottom_icon .fa-brands{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.boot_link{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
 /* Colors */
 .my_color_text{
     color: #2C3E50;
