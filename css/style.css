@@ -106,6 +106,29 @@ header .navbar-toggler:focus{
     border-radius: 10px;
 }
 
+/* Contact */
+.contact .form-control{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    box-shadow: none;
+}
+
+.contact .form-label{
+    margin-bottom: 0;
+}
+
+.contact textarea{
+    resize: none;
+}
+
+.contact label{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
 /* Colors */
 .my_color_text{
     color: #2C3E50;
@@ -133,15 +156,27 @@ header .fa-bars{
 }
 
 /* Buttons */
-.about .my_btn{
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
+.my_btn{
     font-size: 16px;
     font-weight: 600;
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
+    color: white;
+}
+
+.my_btn:hover{
+    color: white;
+}
+
+.my_btn.my_download{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.my_btn.my_send{
+    background-color: #1ABC9C;
+    border: 0;
 }
 
 
