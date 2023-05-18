@@ -4,20 +4,15 @@
 }
 
 /* Generics */
-header{
-    /* height: 100%; */
-    color: white;
-}
-
 section{
     padding: 2rem 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Utils */
-.container{
+/* .container{
     border: 1px solid black;
-}
+} */
 
 .flex{
     display: flex;
@@ -32,18 +27,18 @@ header .row{
     height: var(--h_header);
 }
 
-.col{
+/* .col{
     border: 1px solid green;
-}
+} */
 
 .mycol_pd_1r{
     padding: 1rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.my_content{
+/* .my_content{
     border: 1px solid orange;
-}
+} */
 
 .div_line_star{
     justify-content: center;
@@ -61,7 +56,6 @@ header .row{
     font-weight: 700;
     flex-basis: 10%;
 }
-
 
 /* Header */
 header .navbar-brand{
@@ -94,8 +88,6 @@ header .navbar-toggler:focus{
 }
 
 /* Jumbotron */
-
-
 .img_container{
     width: 400px;
     margin: 0 auto;
