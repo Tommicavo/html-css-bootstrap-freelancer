@@ -1,11 +1,12 @@
 /* Root */
 :root{
-    --h_header: 80px;
+    --h_header: 100px;
 }
 
 /* Generics */
 header{
-    height: 80px;
+    /* height: 100%; */
+    color: white;
 }
 
 section{
@@ -13,13 +14,18 @@ section{
     border: 1px solid red;
 }
 
-h2{
-    text-align: center;
-}
-
 /* Utils */
 .container{
     border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 header .row{
@@ -38,5 +44,108 @@ header .row{
 .my_content{
     border: 1px solid orange;
 }
+
+.div_line_star{
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.div_line_star .line{
+    border-bottom: 2px solid currentColor;
+    flex-basis: 20%;
+}
+
+.div_line_star .fa-star{
+    font-size: 24px;
+    font-weight: 700;
+    flex-basis: 10%;
+}
+
+
+/* Header */
+header .navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header .nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-brand:focus, .navbar-brand:hover,
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+
+header .navbar-collapse{
+    flex-grow: 0;
+}
+
+header .navbar-toggler{
+    border: 2px solid white;
+}
+
+header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* Jumbotron */
+
+
+.img_container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Portfolio */
+.portfolio img{
+    border-radius: 10px;
+}
+
+/* Colors */
+.my_color_text{
+    color: #2C3E50;
+}
+
+.my_bg_header{
+    background-color: #2C3E50;
+}
+
+.my_bg_green{
+    background-color: #1ABC9C;
+}
+
+.my_bg_bottom{
+    background-color: #3A546D;
+}
+
+.my_bg_footer{
+    background-color: #2C3E50;
+}
+
+/* Font Awesome */
+header .fa-bars{
+    color: white;
+}
+
+/* Buttons */
+.about .my_btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
 
 
